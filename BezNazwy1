@@ -1,0 +1,9 @@
+#include <windows.h>
+
+SETUP_DIALOG DIALOG 0, 0, 200, 100
+STYLE WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+{
+    PUSHBUTTON "Anuluj", IDCANCEL, 125, 70, 70, 20
+    PUSHBUTTON "OK", IDOK, 50, 70, 70, 20
+}    
